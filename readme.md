@@ -3,6 +3,10 @@ setup
 
 basic themes, configs, dotfiles
 
+deps
+---
+ - vim, tmux
+ - ```sudo apt-get install stow```
 
 gtk
 ---
