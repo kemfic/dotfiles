@@ -6,7 +6,7 @@ basic themes, configs, dotfiles
 
 gtk
 ---
- - gtk3 theme - [https://www.gnome-look.org/p/1167049/](X Arc Collection)
+ - gtk3 theme - [osx arc collection](https://www.gnome-look.org/p/1167049/)
  - icon pack - [https://www.gnome-look.org/p/1166289/](papirus)
  - cursor - [capitan cursors](https://www.gnome-look.org/p/1148692/)
 
