@@ -3,6 +3,10 @@ setup
 
 basic themes, configs, dotfiles
 
+
+note: dont use others' dotfiles unless you know what's in them
+
+
 deps
 ---
  - vim, tmux
