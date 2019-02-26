@@ -12,5 +12,6 @@ gtk
 
  - **extensions**
     - [dash to dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
-
+    - desk changer
+    - alternateTab
 
