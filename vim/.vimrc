@@ -1,6 +1,13 @@
 " kemfic
 " github.com/kemfic/setup/vim/.vimrc
 
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+plug#begin()
 colorscheme molokai
 syntax enable
 
@@ -35,3 +42,4 @@ else
     let &t_SI = "\<Esc>]50;CursorShape=1\x7"
     let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif
+
