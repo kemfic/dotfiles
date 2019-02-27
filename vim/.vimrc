@@ -30,6 +30,11 @@ nnoremap gV `[v']
 " your pinky will thank you later
 inoremap jk <esc>
 
+" move to beginning/end
+nnoremap B ^
+nnoremap E $
+
+
 " allows cursor change in tmux mode
 if exists('$TMUX')
     let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
