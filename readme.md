@@ -24,3 +24,7 @@ basically a knockoff osx theme
     - desk changer
     - alternateTab
 
+
+vim
+---
+ - using [gruvbox](https://github.com/morhetz/gruvbox)
