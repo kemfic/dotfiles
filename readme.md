@@ -28,3 +28,8 @@ basically a knockoff osx theme
 vim
 ---
  - using [gruvbox](https://github.com/morhetz/gruvbox)
+
+notes
+---
+
+insert ```alias tmux="TERM=screen-256color-bce tmux"``` into your .bashrc, this ensures that 256-bit color is used
