@@ -11,7 +11,6 @@ set tabstop=2
 set softtabstop=2 " only plebs use tabs
 set expandtab
 set autoindent
-set cindent
 
 set number " line numbers
 set showcmd
