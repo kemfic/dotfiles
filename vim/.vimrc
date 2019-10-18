@@ -8,6 +8,7 @@ set background=dark
 syntax enable
 
 set tabstop=4
+set shiftwidth=4
 set softtabstop=4 " only plebs use tabs
 set expandtab
 set autoindent
