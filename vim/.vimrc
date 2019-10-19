@@ -1,14 +1,14 @@
 " kemfic
 " github.com/kemfic/setup/vim/.vimrc
 
-execute pathogen#infect()
+call pathogen#infect()
 
 colorscheme gruvbox "molokai
 set background=dark
 syntax enable
 
-set tabstop=2
-set softtabstop=2 " only plebs use tabs
+set tabstop=4
+set softtabstop=4 " only plebs use tabs
 set expandtab
 set autoindent
 

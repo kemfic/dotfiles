@@ -1,4 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/kemfic/setup/tmux/.tmux'
 let g:netrw_dirhist_2='/home/kemfic/setup/tmux/.tmux/plugins/tmux-themepack'
+let g:netrw_dirhist_3='/usr/local/include/ceres/internal'
+let g:netrw_dirhist_4='/home/kemfic/esp/test-console/main'
+let g:netrw_dirhist_5='/home/kemfic/projects/esp-usb/main'
+let g:netrw_dirhist_6='/home/kemfic/esp/esp-idf'
+let g:netrw_dirhist_7='/home/kemfic/setup/vim/.vim/bundle/vimsence/python'
+let g:netrw_dirhist_8='/home/kemfic/setup/vim/.vim/bundle/vimdiscord/python'
