@@ -38,13 +38,13 @@ nnoremap E $
 
 
 " allows cursor change in tmux mode
-""if exists('$tmux')
-""    let &t_si = "\<esc>ptmux;\<esc>\<esc>]50;cursorshape=1\x7\<esc>\\"
-""    let &t_ei = "\<esc>ptmux;\<esc>\<esc>]50;cursorshape=0\x7\<esc>\\"
-""else
-""    let &t_si = "\<esc>]50;cursorshape=1\x7"
-""    let &t_ei = "\<esc>]50;cursorshape=0\x7"
-""endif
+if exists('$tmux')
+    let &t_si = "\<esc>ptmux;\<esc>\<esc>]50;cursorshape=1\x7\<esc>\\"
+    let &t_ei = "\<esc>ptmux;\<esc>\<esc>]50;cursorshape=0\x7\<esc>\\"
+else
+    let &t_si = "\<esc>]50;cursorshape=1\x7"
+    let &t_ei = "\<esc>]50;cursorshape=0\x7"
+endif
 
 execute "set <xUp>=\e[1;*A"
 execute "set <xDown>=\e[1;*B"
