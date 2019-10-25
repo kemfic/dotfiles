@@ -12,6 +12,7 @@ deps
  - vim, tmux
  - ```sudo apt-get install stow```
  - ```stow tmux vim```
+
 gtk
 ---
 basically a knockoff osx theme
