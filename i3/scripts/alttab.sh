@@ -1,5 +1,4 @@
 #!/bin/bash
-# make sure to send to /usr/bin/ and give executable permissions
 # stolen from https://github.com/davatorium/rofi/issues/38#issuecomment-310589341
 rofi \
     -show window  \

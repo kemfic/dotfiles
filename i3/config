@@ -38,7 +38,7 @@ bindsym $mod+q kill
 bindsym $mod+space exec rofi -show run #dmenu_run
 # trying to figure out how to Alt-Tab
 #bindsym $mod+Tab exec rofi -show window
-bindsym $mod+Tab exec alttab
+bindsym $mod+Tab exec ~/.config/i3/scripts/alttab.sh
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
